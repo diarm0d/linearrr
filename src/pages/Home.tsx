@@ -47,7 +47,7 @@ const ethereumClient = new EthereumClient(wagmiConfig, chains)
           placeholderText="Enter address"
           classname="w-full h-16 rounded-full text-4xl px-8 mb-8"
         />
-        <button onClick={() => setIsOpen(!isOpen)} className="bg-gradient-to-r from-linea-blue to-blue-500 rounded-full px-8 py-4"> Connect Wallet </button>
+        <button onClick={() => setIsOpen(!isOpen)} className="bg-gradient-to-r from-linea-blue to-blue-500 pointer active:shadow-inner-xl transition-all duration-500 ease-in-out bg-gradient hover:bg-opacity-60 rounded-full px-8 py-4"> Connect Wallet </button>
       </div>
 
       <Banner text="Made with ❤️ by Diarm0d. If you would like to support this project, please consider donating at 0x6bd4361F03d345DA1a357B72026F787cFAb51c92" />
